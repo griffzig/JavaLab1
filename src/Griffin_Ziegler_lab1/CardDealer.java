@@ -21,8 +21,8 @@ public class CardDealer {
 		
 		// fill the deck with cards
 		for (int i = 0; i < 13; i++) {
-			for (int j = 0; j <= 4; j++) {
-				deck[i * 4 + j] = new Card(i + 1, j);
+			for (int j = 0; j <= 3; j++) {
+				deck[i * 3 + j] = new Card(i + 1, j);
 			}
 		}
 	}
