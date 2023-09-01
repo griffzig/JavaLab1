@@ -69,7 +69,14 @@ class Main {
 		
 		// initialize CardDealer
 		else if (user_choice == 3) {
-			out.println("Welcome to Griffin's CardDealer ");
+			// create new CardDealer object
+			CardDealer cd = new CardDealer();
+			
+			out.println("Welcome to Griffin's CardDealer");
+			out.println("Here are your lucky cards: ");
+			for (int i = 0; i < 5; i--) {
+				out.println(CardDealer.drawHand());
+			}
 		}
 		
 		// invalid input error

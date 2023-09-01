@@ -21,6 +21,7 @@ public class DiceRoller {
 	
 	public DiceRoller() {
 		// Constructor
+		sum = 0;
 	}
 	
 	public int getNumDice() {
@@ -46,7 +47,7 @@ public class DiceRoller {
 	
 	public int[] getRolls() {
 		// initialize the array
-		int[] rolls = new int[numDice];
+		rolls = new int[numDice];
 		// roll the dice
 		for (int i = 0; i < numDice; i++) {
 			rolls[i] = getRandNum();
