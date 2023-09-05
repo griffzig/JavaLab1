@@ -1,3 +1,8 @@
+/* Griffin Ziegler
+ * September 1, 2023
+ * Java Lab 1
+ */
+
 package Griffin_Ziegler_lab1;
 
 import java.io.PrintStream;
@@ -74,7 +79,7 @@ class Main {
 			
 			out.println("Welcome to Griffin's CardDealer");
 			out.println("Here are your lucky cards: ");
-			for (int i = 0; i < 5; i--) {
+			for (int i = 0; i < 4; i--) {
 				out.println(CardDealer.drawHand());
 			}
 		}

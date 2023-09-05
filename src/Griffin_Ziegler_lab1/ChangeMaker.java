@@ -1,7 +1,4 @@
-/* Griffin Ziegler
- * September 1, 2023
- * ChangeMaker app
- */
+
 package Griffin_Ziegler_lab1;
 
 import java.io.PrintStream;

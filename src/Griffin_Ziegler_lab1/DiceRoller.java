@@ -1,7 +1,3 @@
-/* Griffin Ziegler
- * September 1, 2023
- * DiceRoller app
- */
 package Griffin_Ziegler_lab1;
 
 import java.io.PrintStream;
